@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height:60px; 
+    background-color: #0f1111;
+    color:white;
+    display:flex;
+    align-items: center;
+}
+.nav-logo{
+    height:50px;
+    width:100px;
+}
+.logo{
+    background-image: url("amazon_logo\ \(1\).png");
+    background-size: cover;
+    height:50px;
+    width:100%
+}
+.border{
+    border-color: 1.5px solid transparent;
+}
+.border:hover {
+    border:1.5px solid white;
+}
+
+/** Box 2 : **/
+.deliver-to{
+    color:#cccccc;
+    font-size: 0.75rem;
+  
+    margin-left: 17px;
+}
+.add-icon{
+    display:flex;
+    align-items: center;
+    margin-left:2px;
+    
+    
+}
+
+.india{
+    font-size: 1rem;
+    margin-left:3px;
+    margin-top: 3px;
+}
+
+/* Box Search */
+.nav-search{
+    display:flex;
+    padding:20px;
+}
+
+
